@@ -1,3 +1,4 @@
+//for client
 cd .\client\
 
 npm create vite@latest ./
@@ -11,3 +12,8 @@ npx tailwindcss init -p
 npm install file-saver
 
 npm install react-router-dom
+
+
+//for server
+npm init -y
+npm install cloudinary cors dotenv express mongoose nodemon epen ai
